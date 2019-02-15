@@ -3,4 +3,5 @@ platformName = "Android"
 deviceName = 'Nexus 5X'
 app = "/Users/danilo.policarpo/dev/opencv/build/app-debug.apk"
 avd= "orio_27"
+automationName = 'UiAutomator2'
 

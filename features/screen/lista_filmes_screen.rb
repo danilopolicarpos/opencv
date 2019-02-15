@@ -14,8 +14,10 @@ class Lista_filmeScreen
   end
 
   def take_screenshot
-    # el = find_element(id: @busca )
-    screenshot('screenshot/arquivo.png')
+     el = find_element(id: @busca )
+     element_screenshot(el,'screenshot/arquivo.png')
+    #element = find_element(id:'id do elemento')
+
   end
 
   def resultado_busca_titulo
