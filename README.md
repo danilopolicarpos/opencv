@@ -29,4 +29,23 @@ OPENCV
 ├── Gemfile                  - Dependências usada no projeto
 ├── Gemfile.lock             - Versões das gens instaladas
 └──  README.md   
+OPENCV
 
+├── build
+│   └── app-debug.apk
+├── fail_image
+│   └── find_result_visual.png
+├── features
+│   ├── android_screen_base.rb
+│   ├── lista_filme.feature
+│   ├── screen
+│   │   └── lista_filmes_screen.rb
+│   ├── step_definitions
+│   │   └── lista_filmes_steps.rb
+│   └── support
+│       ├── env.rb
+│       └── hooks.rb
+├── imagens
+│   └── arquivo.png
+└── screenshot
+    └── arquivo.png
