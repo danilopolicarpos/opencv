@@ -14,8 +14,9 @@ Appium&
 bundle exec cucumber
 ```
 # Arquitetura do Projeto
-'''
+
 OPENCV
+
 ├── Build                    - Local onde fica o APK
 ├── fail_image               - Diferença entre as comparações das imagens
 ├── Feature
@@ -28,5 +29,3 @@ OPENCV
 ├── Gemfile                  - Dependências usada no projeto
 ├── Gemfile.lock             - Versões das gens instaladas
 ├── README.md   
-
-'''
