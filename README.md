@@ -29,3 +29,8 @@ OPENCV
 ├── Gemfile                  - Dependências usada no projeto
 ├── Gemfile.lock             - Versões das gens instaladas
 ├── README.md   
+
+# Mais informações:
+``` 
+Acesse o link 
+```
