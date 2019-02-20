@@ -29,23 +29,22 @@ OPENCV
 ├── Gemfile                  - Dependências usada no projeto
 ├── Gemfile.lock             - Versões das gens instaladas
 └──  README.md   
-OPENCV
 
-├── build
-│   └── app-debug.apk
-├── fail_image
-│   └── find_result_visual.png
+## Arquitetura do Projeto
+
+HTTParty-Contrato
+
 ├── features
-│   ├── android_screen_base.rb
-│   ├── lista_filme.feature
-│   ├── screen
-│   │   └── lista_filmes_screen.rb
-│   ├── step_definitions
-│   │   └── lista_filmes_steps.rb
-│   └── support
-│       ├── env.rb
-│       └── hooks.rb
-├── imagens
-│   └── arquivo.png
-└── screenshot
-    └── arquivo.png
+│   ├── schemas              - Schemas usados para os testes de contrato
+│   │   └── schema.json
+│   ├── step_definitions     - Snippets para implementar os testes
+│   │   └── get.rb
+│   └── support              - Requisição das gens e configuração da pasta Schema
+│   │   └── env.rb
+│   ├── get.feature          - Feature escrita para os testes
+│
+│── .gitignore
+├── Gemfile                  - Dependencias usada no projeto
+├── Gemfile.lock             - Versões das gens instaladas
+├── README.md   
+└── info.json                - Arquivo usado pelo Json-server
