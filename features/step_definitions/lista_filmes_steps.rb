@@ -8,7 +8,7 @@ end
 
 Então('vejo o resultado da busca') do
   #@lista.resultado_busca_titulo
-  #@lista.take_screenshot
+  @lista.take_screenshot
   fail "Imagens Diferentes" unless comparar_imagens
 
 

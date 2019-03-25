@@ -1,6 +1,6 @@
 Before do
   driver.start_driver
-  #remove_screenshot
+  remove_screenshot
 end
 
 After do

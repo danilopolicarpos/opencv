@@ -10,7 +10,6 @@ class Lista_filmeScreen
 
   def realizar_busca
     find_element(id: @titulo).send_key 'Batman Forever'
-    find_element(id: @busca).click
   end
 
   def take_screenshot
